@@ -39,6 +39,7 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/']],
+            ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Vue Spa App', 'url' => ['/spa']],
         ],
     ]);
